@@ -21,7 +21,7 @@ var2 = math.log(5184, 72) # math.log 함수를 사용해보세요.
 
 
 
-#웹페이지 구성 확인하기
+## 웹페이지 구성 확인하기
 from urllib.request import urlopen # url 패키지의 request 모듈에서 urlopen 함수를 불러오세요. 해당 함수는 url의 html파일 불러옴.
 
 webpage = urlopen("https://en.wikipedia.org/wiki/Lorem_ipsum").read().decode("utf-8")
