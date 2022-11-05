@@ -1,3 +1,4 @@
+#cal 함수 생성
 def plus(a, b):
     return a+b # a+b 를 반환하세요.
 
